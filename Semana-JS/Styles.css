@@ -1,0 +1,181 @@
+.Marco{
+    line-height: 0px;
+    display: flex;
+    position:relative;
+    column-count: 3;
+    column-gap:1px;
+    border-radius:  0.55rem;
+    background-color:rgb(255, 5, 5);
+    border: 10px double;
+    border-color: rgb(2, 0, 0) ;
+    width: 650px;
+    align-items: center;
+    justify-content:center;
+    height: 400px;
+    padding-top: 0px;
+}
+
+.Separador{
+background-color:rgb(122, 58, 58);
+background: url("./Separador.PNG") ;
+background-repeat : no-repeat;
+background-size: cover;
+width:50px;
+
+height: 410px;
+border-radius:  1rem;
+border: 5px outset;
+border-color: rgb(124, 5, 5) ;
+
+}
+
+#imagen{
+  
+    background-color: rgb(199, 9, 9);
+    width:250px;
+    text-align: center;
+    border-radius:  0.55rem;
+    height:350px;
+    margin-right: 1%;
+    border: 8px inset;
+    border-color: rgb(122, 58, 58) ;
+}
+#pokeImg{
+    margin-top: 5px;
+    background-color: white;
+    border: 5px dashed;
+}
+
+#datos{
+    
+    width:250px;
+    height:350px;
+    background-color: rgb(199, 9, 9);
+text-align: center;
+line-height: 10px;
+    border-radius:  0.55rem;
+    margin-left: 1%;
+    border: 8px inset;
+    border-color: rgb(122, 58, 58) ;
+
+
+}
+
+#pokeName{
+    margin-top: 10%;
+    text-align: center;
+    border-radius: .8rem;
+}
+#Buscar{
+
+    border-radius: .8rem; 
+}
+
+b, i{
+    background-color: rgba(252, 246, 246, 0.7);
+    border-radius: 1rem;
+    font-size:10px;
+    
+  
+
+}
+#mov{
+    background-color: rgb(255, 255, 255);
+}
+#fondoder{
+    background: url("./infeder.PNG") ;
+    opacity: .8;
+    border-style:hidden;
+    background-repeat : no-repeat;
+    background-size: contain;
+    width:250px;
+    height:150px;
+
+}
+#princi{
+    background: url("./principal.PNG") ;
+    opacity: .8;
+    background-repeat : no-repeat;
+    background-size: contain;
+    width:250px;
+    height:280px;
+
+}
+#pie  {
+ display: flex;
+ justify-content:  center;
+}
+#pie  p{
+   font-weight: bold;
+   margin-left: 15px;
+}
+#tops{
+    display: flex;
+    position: absolute;
+    justify-content:  center;
+}
+#tops p {
+    
+    font-weight: bold;
+    margin-left: 40px;
+    line-height: 1px;
+}
+.opc{
+    font-weight: bold;
+    color: rgb(100, 27, 27);
+}
+
+#pokeTypes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.pokeType p {
+    border: 1px;
+  border-radius: 1rem;
+}
+
+.info span{
+   
+    display: flex;
+    position:relative;
+    font-size: 9px;
+    line-height: .0px;
+
+}
+.linea {
+    display: flex;
+    position:relative;
+    font-weight: bolder;
+    
+    font-size: 9px;
+    line-height: .0px;
+    background-color:#ebb8b8;
+    border-radius: 1rem;
+}
+.progressContainer{
+  
+    background: #f0f7f2;
+    border: 1px solid;
+    border-radius: 1rem;
+    width: 100% !important;
+    height:10px;
+}
+
+.progressContainer > span{
+    height: 10px;
+    width: 100%;
+    background: #028623b4;
+    border-radius: 1rem;
+    border-color: black;
+    border: 1px solid;
+}
+.info{
+    background-color:#ffffff;
+    width: 100%;
+    height: 10%;
+
+
+}
+
+

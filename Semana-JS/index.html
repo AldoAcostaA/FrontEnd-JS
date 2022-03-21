@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1><br>
+    <div class="Marco">
+
+        <div id="imagen">
+            <span id="tops">
+                    <p id="pokeName1"></p>
+                    <p id="pokeId1"></p>
+            </span>
+
+
+            <input type="text" placeholder="" id="pokeName" name="pokeName"> <br>
+            <img src="./pokebola.png" alt="Pokemon" id="pokeImg" width="150px"> <br>
+            <button onclick="fetchPokemon()" id="Buscar">Buscar</button> <br>
+            <div id="princi">
+
+            </div>
+        </div>
+        <div class="Separador">
+
+
+        </div>
+            
+        <div id="datos">
+            <h3>Estadisticas</h3>
+            <i id="mov">Movimientos: </i>
+            <i id="pokeMoves"></i>
+
+           <span id="tipomov">
+            <div class="pokeType" id="pokeTypes">
+            </div>
+           </span>
+            <div class="Estadisticas">
+                <span>
+                    <span>
+                        <div class="info">
+                            <span>
+                                <span class="linea">
+                                    <p class="title">HP-</p>
+                                    <p id="hpValue"></p>
+                                </span>
+                                <div class="progressContainer">
+                                    <span id="hpProgress"></span>
+                                </div>
+                            </span>
+                            <span>
+                                <span class="linea">
+                                    <p class="opc">ATK-</p>
+                                    <p id="attackValue"></p>
+                                </span>
+                                <div class="progressContainer">
+                                    <span id="attackProgress"></span>
+                                </div>
+                            </span>
+                            <span>
+                                <span class="linea">
+                                    <p class="opc">DEF-</p>
+                                    <p id="defenseValue"></p>
+                                </span>
+                                <div class="progressContainer">
+                                    <span id="defenseProgress"></span>
+                                </div>
+                            </span>
+                            <span>
+                                <span class="linea">
+                                    <p class="opc">STAK-</p>
+                                    <p id="special-attackValue"></p>
+                                </span>
+                                <div class="progressContainer">
+                                    <span id="special-attackProgress"></span>
+                                </div>
+                            </span>
+                            <span>
+                                <span class="linea">
+                                    <p class="opc">SDEF-</p>
+                                    <p id="special-defenseValue"></p>
+                                </span>
+                                <div class="progressContainer">
+                                    <span id="special-defenseProgress"></span>
+                                </div>
+                            </span>
+                            <span>
+                                <span class="linea">
+                                    <p class="opc">SPD-</p>
+                                    <p id="speedValue"></p>
+                                </span>
+                                <div class="progressContainer">
+                                    <span id="speedProgress"></span>
+                                </div>
+                            </span>
+                        </div>
+                    </span>
+                </span>
+            </div>
+
+            <div id="fondoder">
+<div id="pie">
+                <p>Altura</p>
+                <p id="pokeWeight"></p>
+                <p>Peso</p>
+                <p id="pokeHeight"></p>
+
+            </div>
+
+            </div>
+
+            
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    </div>
+</body>
+<footer>
+    <script src="./javas.js"></script>
+</footer>
+
+</html>
